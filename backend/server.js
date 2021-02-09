@@ -5,7 +5,6 @@ const data = require('./data');
 const app = express();
 
 app.get('/api/products', (req, res) => {
-    console.log('assssss');
     res.send(data.products);
 })
 
